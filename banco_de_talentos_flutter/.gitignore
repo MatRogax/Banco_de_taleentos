@@ -1,0 +1,69 @@
+# ==============================================================================
+# 1. Documentação e IA / Agentes (Blocadas de envio ao Repositório Remoto)
+# ==============================================================================
+# Ignora arquivos markdown de anotações, planos e intruções de IA
+*.md
+!README.md
+
+# Pastas de configurações e memórias dos agentes de Inteligência Artificial
+.agents/
+.agent/
+.gemini/
+*.agents
+
+# ==============================================================================
+# 2. Variáveis de Ambiente e Segurança
+# ==============================================================================
+.env
+.env*
+!.env.example
+
+# ==============================================================================
+# 3. Editores de Texto e IDEs (VS Code, Android Studio, IntelliJ)
+# ==============================================================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.DS_Store
+
+# ==============================================================================
+# 4. Arquivos Gerados Automaticamente (Code Generation / Build Runner)
+# ==============================================================================
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# ==============================================================================
+# 5. Flutter, Dart & Build de Plataforma
+# ==============================================================================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Logs e Banco de dados de cache locais
+*.log
+*.sqlite
+*.db
+*.txt
+
+# Pacotes compiled finais e binários
+*.apk
+*.aab
+*.app
+*.ipa
+*.exe
+*.deb
+*.rpm
+
+# ==============================================================================
+# 6. Controle de Pacotes (Lockfiles)
+# ==============================================================================
+pubspec.lock
+
